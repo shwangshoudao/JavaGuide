@@ -595,7 +595,7 @@ save 60 10000        #在60秒(1分钟)之后，如果至少有10000个key发生
 
 **AOF（append-only file）持久化**
 
-与快照持久化相比，AOF 持久化 的实时性更好，因此已成为主流的持久化方案。默认情况下 Redis 没有开启 AOF（append only file）方式的持久化，可以通过 appendonly 参数开启：
+AOF持久化是通过将redis的更新命令储存在redis中，在重启时将命令重新执行一遍。与快照持久化相比，AOF 持久化 的实时性更好，因此已成为主流的持久化方案。默认情况下 Redis 没有开启 AOF（append only file）方式的持久化，可以通过 appendonly 参数开启：
 
 ```conf
 appendonly yes
