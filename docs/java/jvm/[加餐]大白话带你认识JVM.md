@@ -282,6 +282,7 @@ finalize()是Object类的一个方法、一个对象的finalize()方法只会被
 ### 3.5 （了解）各种各样的垃圾回收器
 
 HotSpot VM中的垃圾回收器，以及适用场景
+
 ![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-11/11e9dcd0f1ee4f25836e6f1c47104c51-new-image69e1c56a-1d40-493a-9901-6efc647a01f3.png)
 
 到jdk8为止，默认的垃圾收集器是Parallel Scavenge 和 Parallel Old
