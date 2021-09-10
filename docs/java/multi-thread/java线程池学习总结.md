@@ -207,6 +207,7 @@ public class ScheduledThreadPoolExecutor
 - **CachedThreadPool**
 
 对应 Executors 工具类中的方法如图所示：
+
 ![通过Executor 框架的工具类Executors来实现](images/java线程池学习总结/Executors工具类.png)
 
 ## 四 (重要)ThreadPoolExecutor 使用示例
